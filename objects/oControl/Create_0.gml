@@ -1,8 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-show_message("hello worldddddddddddddd");
-
-
+//sets the active pumpkin to null
+global.activePumpkin = pointer_null;
 
 

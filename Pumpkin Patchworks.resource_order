@@ -17,6 +17,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"testingpush","order":1,"path":"objects/testingpush/testingpush.yy",},
+    {"name":"rPatch","order":1,"path":"rooms/rPatch/rPatch.yy",},
+    {"name":"oPumpkin","order":2,"path":"objects/oPumpkin/oPumpkin.yy",},
+    {"name":"varibles","order":1,"path":"scripts/varibles/varibles.yy",},
+    {"name":"SpawnPumpkin","order":2,"path":"scripts/SpawnPumpkin/SpawnPumpkin.yy",},
+    {"name":"sPumpkin","order":1,"path":"sprites/sPumpkin/sPumpkin.yy",},
+    {"name":"oInit","order":1,"path":"objects/oInit/oInit.yy",},
   ],
 }
