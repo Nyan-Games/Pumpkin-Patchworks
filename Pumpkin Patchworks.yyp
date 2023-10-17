@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"NOTES","path":"scripts/NOTES/NOTES.yy",},},
+    {"id":{"name":"testingpush","path":"objects/testingpush/testingpush.yy",},},
     {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
