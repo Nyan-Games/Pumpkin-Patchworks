@@ -1,2 +1,2 @@
 //no initizalation yet
-room_goto_next();
+room_goto_next(); 
