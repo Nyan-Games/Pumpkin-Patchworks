@@ -25,6 +25,7 @@
     {"name":"varibles","order":1,"path":"scripts/varibles/varibles.yy",},
     {"name":"SpawnPumpkin","order":2,"path":"scripts/SpawnPumpkin/SpawnPumpkin.yy",},
     {"name":"menuButton","order":2,"path":"sprites/menuButton/menuButton.yy",},
+    {"name":"TESTINGOBJ","order":6,"path":"objects/TESTINGOBJ/TESTINGOBJ.yy",},
     {"name":"bg","order":3,"path":"sprites/bg/bg.yy",},
     {"name":"rMainMenu","order":2,"path":"rooms/rMainMenu/rMainMenu.yy",},
     {"name":"oPlay","order":4,"path":"objects/oPlay/oPlay.yy",},

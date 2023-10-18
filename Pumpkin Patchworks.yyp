@@ -44,6 +44,7 @@
     {"id":{"name":"varibles","path":"scripts/varibles/varibles.yy",},},
     {"id":{"name":"SpawnPumpkin","path":"scripts/SpawnPumpkin/SpawnPumpkin.yy",},},
     {"id":{"name":"menuButton","path":"sprites/menuButton/menuButton.yy",},},
+    {"id":{"name":"TESTINGOBJ","path":"objects/TESTINGOBJ/TESTINGOBJ.yy",},},
     {"id":{"name":"bg","path":"sprites/bg/bg.yy",},},
     {"id":{"name":"sBGTile","path":"sprites/sBGTile/sBGTile.yy",},},
     {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
