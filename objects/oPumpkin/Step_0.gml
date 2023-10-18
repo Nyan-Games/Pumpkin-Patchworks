@@ -1,5 +1,5 @@
 //Grow Pumpkin
-if (image_xscale < 1) {
+if (image_xscale < size) {
 	image_xscale += 0.05;	
 }
 
