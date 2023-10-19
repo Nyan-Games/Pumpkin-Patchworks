@@ -6,7 +6,7 @@ global.pumpkinsCreated = 0;
 global.splatterPattern = 0;
 
 global.pumpkinList = ds_list_create();
-
+global.seedInventory = ds_list_create();
 
 showFullSplatter = false;
 splatterFullScreenOpacity = 0;
