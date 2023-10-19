@@ -5,7 +5,7 @@ if instance_position(mouse_x, mouse_y, self) {
 	image_alpha = .8;	
 }
 
-if global.splatter {
+if !instance_exists(oPumpkin) {
  image_alpha = 0;	
 }
 
