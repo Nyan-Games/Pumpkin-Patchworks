@@ -1,22 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPlay",
+  "name": "oMenu",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMMButtonParent","path":"objects/oMMButtonParent/oMMButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/oMMButtonParent/oMMButtonParent.yy",},"value":"PLAY",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oPTCHButtonParent","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"value":"MENU",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oMMButtonParent",
-    "path": "objects/oMMButtonParent/oMMButtonParent.yy",
+    "name": "oPTCHButtonParent",
+    "path": "objects/oPTCHButtonParent/oPTCHButtonParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

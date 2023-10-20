@@ -7,15 +7,15 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/oButtonParent/oButtonParent.yy",},"value":"Quit",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMMButtonParent","path":"objects/oMMButtonParent/oMMButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/oMMButtonParent/oMMButtonParent.yy",},"value":"QUIT",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oButtonParent",
-    "path": "objects/oButtonParent/oButtonParent.yy",
+    "name": "oMMButtonParent",
+    "path": "objects/oMMButtonParent/oMMButtonParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
