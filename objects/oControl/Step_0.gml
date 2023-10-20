@@ -4,7 +4,6 @@ if keyboard_check_pressed(ord("F")) {
 }
 //if pumpkin doesnt exist, spawn one
 if (!instance_exists(oNewPumpkin) && !instance_exists(oPumpkin) && !global.inventoryOn) {
-	
 	instance_create_layer((window_get_width()/2) - 300, window_get_height()/2, "Seeds", oNewPumpkin);
 	
 	var _button2 = instance_create_layer((window_get_width()/2) + 300, window_get_height()/2, "Seeds", oNewPumpkin);

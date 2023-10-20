@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sSeed",
-  "bbox_bottom": 123,
+  "bbox_bottom": 125,
   "bbox_left": 4,
   "bbox_right": 127,
   "bbox_top": 0,

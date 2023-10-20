@@ -1,4 +1,4 @@
-if !instance_exists(oSeed) {	
+if !instance_exists(oSeed) && !global.inventoryOn {	
 	draw_self();
 }
 

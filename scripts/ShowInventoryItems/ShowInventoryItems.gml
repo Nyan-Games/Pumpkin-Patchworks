@@ -5,6 +5,7 @@ function ShowInventoryItems(){
 		if (slotNumber == i) {
 			if (global.seedInventory[|global.pageNumber*instance_number(oInventorySlot) + i] != undefined) {
 				if (ds_list_size(global.seedInventory) >= (global.pageNumber*instance_number(oInventorySlot) + i - 1)) {
+						image_blend = global.seedInventory[|(global.pageNumber*instance_number(oInventorySlot) + i)].color;
 						var seedSpawn = instance_create_layer(x,y,"Seeds",oSeed);
 						with seedSpawn {
 							inventoryMode = true;
@@ -12,6 +13,8 @@ function ShowInventoryItems(){
 							attributes = global.seedInventory[|(global.pageNumber*instance_number(oInventorySlot) + i)];
 						}
 					}
+			} else {
+			image_blend = c_white;	
 			}
 		}
 	}

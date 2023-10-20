@@ -1,5 +1,5 @@
-image_xscale = 1 + cos(wiggleTimer*wiggleFrequency)*wiggleAmplitude;
-image_yscale = 1 + sin(wiggleTimer*wiggleFrequency)*wiggleAmplitude;
+image_xscale = attributes.size + cos(wiggleTimer*wiggleFrequency)*wiggleAmplitude;
+image_yscale = attributes.size + sin(wiggleTimer*wiggleFrequency)*wiggleAmplitude;
 wiggleTimer += 1;
 
 image_angle = (1 + sin(wiggleTimer*wiggleFrequency)*15);
@@ -18,6 +18,7 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 		instance_destroy(oSeed);
 		global.inventoryOn = false;
 		global.pageNumber = 0;
+		oInventorySlot.itemsShown = false;
 		ds_list_delete(global.seedInventory,inventoryNumber);
 	 }
  }

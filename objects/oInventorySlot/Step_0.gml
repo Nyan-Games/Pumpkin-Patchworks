@@ -6,5 +6,6 @@ if global.inventoryOn {
 
 if (global.inventoryOn and !itemsShown) {
 	ShowInventoryItems();
+	show_debug_message("pee");
 	itemsShown = true;
 }

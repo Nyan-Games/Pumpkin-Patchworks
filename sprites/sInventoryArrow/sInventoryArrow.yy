@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "sInventoryArrow",
   "bbox_bottom": 251,
-  "bbox_left": 1,
+  "bbox_left": 25,
   "bbox_right": 230,
   "bbox_top": 13,
   "bboxMode": 0,

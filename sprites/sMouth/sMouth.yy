@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sMouth",
-  "bbox_bottom": 451,
+  "bbox_bottom": 487,
   "bbox_left": 18,
   "bbox_right": 472,
   "bbox_top": 302,

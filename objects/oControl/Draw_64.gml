@@ -15,7 +15,7 @@ if (splatterFullScreenOpacity > 0 && showFullSplatter) {
 	fullSplatterFadeOut = false;
 	alarm[0] = -1;
 }
-
+draw_set_color(c_white);
 
 
 
