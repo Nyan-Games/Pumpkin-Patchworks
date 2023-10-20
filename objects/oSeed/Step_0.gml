@@ -14,11 +14,31 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
  
  if (global.inventoryOn) {
 	 if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left) {
-		SpawnPumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth);
-		instance_destroy(oSeed);
-		global.inventoryOn = false;
-		global.pageNumber = 0;
-		oInventorySlot.itemsShown = false;
-		ds_list_delete(global.seedInventory,inventoryNumber);
+		if (!global.soulMode) {
+			SpawnPumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth);
+			global.inventoryOn = false;
+			global.pageNumber = 0;
+			oInventorySlot.itemsShown = false;
+			ds_list_delete(global.seedInventory,inventoryNumber);
+			instance_destroy(oSeed);
+		} else {
+			global.soulsNeeded--;
+			ds_list_replace(global.seedInventory,inventoryNumber,-2);
+			instance_destroy(self);
+			if (global.soulsNeeded = 0) {
+				var _removeSeed = ds_list_find_index(global.seedInventory, -2);
+				while (_removeSeed = -2) {
+					ds_list_delete(global.seedInventory,_removeSeed);
+					var _removeSeed = ds_list_find_index(global.seedInventory, -2);
+				}
+			global.inventoryOn = false;
+			global.soulMode = false;
+			global.pageNumber = 0;
+			oInventorySlot.itemsShown = false;
+			global.souls++;
+			instance_destroy(oSeed);
+			}
+		}
 	 }
  }
+ 

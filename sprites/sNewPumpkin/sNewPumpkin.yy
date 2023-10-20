@@ -15,6 +15,7 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0381e350-9e89-4072-ab46-6a6a47da0bc4",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c0de1932-3c6d-4c5d-8ad8-1edb3bd4c828",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f3f0d18-23cb-4ca7-95c4-4e9fd76be0c2",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -44,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 2.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -57,6 +58,7 @@
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0381e350-9e89-4072-ab46-6a6a47da0bc4","path":"sprites/sNewPumpkin/sNewPumpkin.yy",},},},"Disabled":false,"id":"039ccce9-fe7b-4330-bbcb-34e67068503f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c0de1932-3c6d-4c5d-8ad8-1edb3bd4c828","path":"sprites/sNewPumpkin/sNewPumpkin.yy",},},},"Disabled":false,"id":"8410c773-24b2-4b80-ad9b-70cc6c1752b8","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0f3f0d18-23cb-4ca7-95c4-4e9fd76be0c2","path":"sprites/sNewPumpkin/sNewPumpkin.yy",},},},"Disabled":false,"id":"6e712417-4977-41d9-8772-931d67345412","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

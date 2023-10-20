@@ -11,6 +11,10 @@ global.seedInventory = ds_list_create();
 global.inventoryOn = false;
 global.pageNumber = 0;
 
+global.soulMode = false;
+global.souls = 0;
+global.soulsNeeded = 0;
+
 showFullSplatter = false;
 splatterFullScreenOpacity = 0;
 splatterOpacity = 0;
