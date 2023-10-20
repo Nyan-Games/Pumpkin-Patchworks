@@ -62,7 +62,6 @@
     {"name":"oHammer","order":6,"path":"objects/oHammer/oHammer.yy",},
     {"name":"DrawAttributes","order":6,"path":"scripts/DrawAttributes/DrawAttributes.yy",},
     {"name":"oInit","order":1,"path":"objects/oInit/oInit.yy",},
-    {"name":"testobject","order":17,"path":"objects/testobject/testobject.yy",},
     {"name":"oPTCHButtonParent","order":15,"path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},
     {"name":"sNose","order":7,"path":"sprites/sNose/sNose.yy",},
     {"name":"sSplatter","order":4,"path":"sprites/sSplatter/sSplatter.yy",},

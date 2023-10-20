@@ -82,7 +82,6 @@
     {"id":{"name":"oHammer","path":"objects/oHammer/oHammer.yy",},},
     {"id":{"name":"DrawAttributes","path":"scripts/DrawAttributes/DrawAttributes.yy",},},
     {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},},
-    {"id":{"name":"testobject","path":"objects/testobject/testobject.yy",},},
     {"id":{"name":"oPTCHButtonParent","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},},
     {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},},
     {"id":{"name":"sNose","path":"sprites/sNose/sNose.yy",},},
