@@ -5,7 +5,11 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 		instance_destroy(self);
 		show_debug_message(ds_list_size(global.seedInventory));
 	} else {
+		if (global.seedInventory[|0] != undefined) {
 		global.inventoryOn = true;
+		} else {
+				
+		}
 	}
 
 }

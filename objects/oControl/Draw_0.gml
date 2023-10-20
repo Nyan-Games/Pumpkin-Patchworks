@@ -5,9 +5,9 @@ if (global.splatter) {
 }
 
 if (!instance_exists(oSeed)) {
-	splatterOpacity *= .95;	
+	splatterOpacity *= .75;	
 }
 
-
-
-
+if (global.inventoryOn) {
+	draw_text(10, 1000, "Page " + string(global.pageNumber + 1));	
+}

@@ -8,6 +8,7 @@ function ShowInventoryItems(){
 						var seedSpawn = instance_create_layer(x,y,"Seeds",oSeed);
 						with seedSpawn {
 							inventoryMode = true;
+							inventoryNumber = global.pageNumber*instance_number(oInventorySlot) + i;
 							attributes = global.seedInventory[|(global.pageNumber*instance_number(oInventorySlot) + i)];
 						}
 					}

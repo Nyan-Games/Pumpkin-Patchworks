@@ -17,5 +17,7 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 		SpawnPumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth);
 		instance_destroy(oSeed);
 		global.inventoryOn = false;
+		global.pageNumber = 0;
+		ds_list_delete(global.seedInventory,inventoryNumber);
 	 }
  }
