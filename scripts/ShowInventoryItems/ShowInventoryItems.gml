@@ -3,7 +3,7 @@
 function ShowInventoryItems(){
 	for (var i = 0; i < instance_number(oInventorySlot); i++) {
 		if (slotNumber == i) {
-			if (global.seedInventory[|global.pageNumber*instance_number(oInventorySlot) + i] != undefined) {
+			if (global.seedInventory[|global.pageNumber*instance_number(oInventorySlot) + i] != undefined && global.seedInventory[|global.pageNumber*instance_number(oInventorySlot) + i] != -2) {
 				if (ds_list_size(global.seedInventory) >= (global.pageNumber*instance_number(oInventorySlot) + i - 1)) {
 						image_blend = global.seedInventory[|(global.pageNumber*instance_number(oInventorySlot) + i)].color;
 						var seedSpawn = instance_create_layer(x,y,"Seeds",oSeed);

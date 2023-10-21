@@ -97,8 +97,8 @@
     {"id":{"name":"_rInit","path":"rooms/_rInit/_rInit.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
     {"roomId":{"name":"_rInit","path":"rooms/_rInit/_rInit.yy",},},
+    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
     {"roomId":{"name":"rPatch","path":"rooms/rPatch/rPatch.yy",},},
     {"roomId":{"name":"rSoulCollision","path":"rooms/rSoulCollision/rSoulCollision.yy",},},
     {"roomId":{"name":"rSeedCollider","path":"rooms/rSeedCollider/rSeedCollider.yy",},},
