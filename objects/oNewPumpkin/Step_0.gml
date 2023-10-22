@@ -42,10 +42,8 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 	}
 }
 
-
+}
 
 if instance_exists(oPumpkin) {
 	instance_destroy(self);	
-}
-
 }
