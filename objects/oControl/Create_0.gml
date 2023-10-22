@@ -15,6 +15,8 @@ global.soulMode = false;
 global.souls = 0;
 global.soulsNeeded = 0;
 
+global.combineMode = false;
+
 showFullSplatter = false;
 splatterFullScreenOpacity = 0;
 splatterOpacity = 0;

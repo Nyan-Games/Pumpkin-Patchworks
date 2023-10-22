@@ -28,9 +28,18 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 			showError = true;
 			errorMessage = "You Need At Least 4 SEEDS!";
 		}
+		
+	if (image_index = 3) {
+		if (global.seedInventory[|0] != undefined && global.seedInventory[|1] != undefined) {
+			instance_destroy(oNewPumpkin);
+			global.inventoryOn = true;
+			global.combineMode = true;
+			showError = false;
+		} else {
+			showError = true;
+			errorMessage = "You Need At Least 2 SEEDS!";
+		}
 	}
-	
-	
 }
 
 
@@ -39,3 +48,4 @@ if instance_exists(oPumpkin) {
 	instance_destroy(self);	
 }
 
+}

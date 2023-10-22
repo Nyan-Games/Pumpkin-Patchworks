@@ -21,13 +21,15 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 			oInventorySlot.itemsShown = false;
 			ds_list_delete(global.seedInventory,inventoryNumber);
 			instance_destroy(oSeed);
-		} else {
+		} 
+
+if (global.soulMode) {
 			global.soulsNeeded--;
 			ds_list_replace(global.seedInventory,inventoryNumber,-2);
-			instance_destroy(self);
+			
 			if (global.soulsNeeded = 0) {
 				var _removeSeed = ds_list_find_index(global.seedInventory, -2);
-				while (_removeSeed = -2) {
+				while (global.seedInventory[|_removeSeed] = -2) {
 					ds_list_delete(global.seedInventory,_removeSeed);
 					var _removeSeed = ds_list_find_index(global.seedInventory, -2);
 				}
@@ -38,7 +40,16 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 			global.souls++;
 			instance_destroy(oSeed);
 			}
-		}
+			instance_destroy(self);
+}
+
+	if (global.combineMode) {
+		
+		
+	}
+
+
+
 	 }
  }
  

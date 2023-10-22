@@ -59,8 +59,6 @@
     {"name":"sSeed","order":12,"path":"sprites/sSeed/sSeed.yy",},
     {"name":"oSeed","order":10,"path":"objects/oSeed/oSeed.yy",},
     {"name":"oMenu","order":14,"path":"objects/oMenu/oMenu.yy",},
-    {"name":"rSeedCollider","order":4,"path":"rooms/rSeedCollider/rSeedCollider.yy",},
-    {"name":"oSeedCollider","order":16,"path":"objects/oSeedCollider/oSeedCollider.yy",},
     {"name":"rMainMenu","order":2,"path":"rooms/rMainMenu/rMainMenu.yy",},
     {"name":"sInventoryArrow","order":15,"path":"sprites/sInventoryArrow/sInventoryArrow.yy",},
     {"name":"oPlay","order":4,"path":"objects/oPlay/oPlay.yy",},

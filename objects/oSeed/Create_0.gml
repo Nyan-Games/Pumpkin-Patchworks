@@ -7,4 +7,6 @@ inventoryMode = false;
 attributes = undefined;
 inventoryNumber = -1;
 
+combinedSeed = false;
+
 image_speed = 0;

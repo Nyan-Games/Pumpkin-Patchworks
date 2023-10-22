@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sInventoryArrow",
-  "bbox_bottom": 251,
-  "bbox_left": 25,
-  "bbox_right": 230,
-  "bbox_top": 13,
+  "bbox_bottom": 255,
+  "bbox_left": 0,
+  "bbox_right": 255,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,10 +14,10 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b833e7b3-e646-4c5f-8a02-7d9bcb0fb7cc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08ef9ccf-4c6b-4e1a-91d8-febda450a353",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7e2745e-1ffb-48b7-b8c6-0eca476141e0",},
   ],
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 64,
+  "gridY": 64,
   "height": 256,
   "HTile": false,
   "layers": [
@@ -56,7 +56,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b833e7b3-e646-4c5f-8a02-7d9bcb0fb7cc","path":"sprites/sInventoryArrow/sInventoryArrow.yy",},},},"Disabled":false,"id":"7a76a9ca-cf69-43a5-9e36-d6007f60efbb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"08ef9ccf-4c6b-4e1a-91d8-febda450a353","path":"sprites/sInventoryArrow/sInventoryArrow.yy",},},},"Disabled":false,"id":"a46cd191-fc0b-4e93-b4e2-5d14e4268ec7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e7e2745e-1ffb-48b7-b8c6-0eca476141e0","path":"sprites/sInventoryArrow/sInventoryArrow.yy",},},},"Disabled":false,"id":"932c6a90-adfd-4117-bb23-edd5551172c7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
