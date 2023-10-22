@@ -8,10 +8,12 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 	image_speed = 1;
 	ds_list_add(global.seedInventory,attributes);
 	show_debug_message(ds_list_find_value(global.seedInventory, ds_list_size(global.seedInventory) - 1));
+	audio_play_sound(picking_flower, 0, false, random_range(.8, 1.2));
 }
 
  if image_index > image_number - 1 instance_destroy();
   if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left) {
+	  audio_play_sound(picking_flower, 0, false, random_range(.8, 1.2));
  if (global.inventoryOn && !global.soulMode && !global.combineMode) {
 	
 		if (!global.soulMode) {
@@ -46,11 +48,13 @@ if (global.soulMode) {
 }
 
 	if (global.combineMode) {
+		 
 		if (global.seed1 = undefined) {
 			global.seed1 = 	global.seedInventory[|inventoryNumber];
 		} else {
 			global.seed2 = 	global.seedInventory[|inventoryNumber];	
 			CombineSeeds(global.seed1,global.seed2);
+			audio_play_sound(shining_8_bit, 0, false);
 			global.inventoryOn = false;
 			global.combineMode = false;
 			global.soulMode = false;

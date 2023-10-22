@@ -9,7 +9,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oPTCHButtonParent","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"value":"MENU",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oInstructions","path":"objects/oInstructions/oInstructions.yy",},"propertyId":{"name":"introText","path":"objects/oInstructions/oInstructions.yy",},"value":"collect seeds by smashing pumpkins \\n make new pumpkins out of your inventory \\n Collide seeds to get a combination of the parents' traits",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oInstructions","path":"objects/oInstructions/oInstructions.yy",},"propertyId":{"name":"introText","path":"objects/oInstructions/oInstructions.yy",},"value":"",},
   ],
   "parent": {
     "name": "Objects",

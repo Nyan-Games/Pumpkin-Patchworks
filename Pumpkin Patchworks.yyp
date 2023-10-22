@@ -104,6 +104,7 @@
     {"id":{"name":"oHammer","path":"objects/oHammer/oHammer.yy",},},
     {"id":{"name":"oIntroInstructions","path":"objects/oIntroInstructions/oIntroInstructions.yy",},},
     {"id":{"name":"DrawAttributes","path":"scripts/DrawAttributes/DrawAttributes.yy",},},
+    {"id":{"name":"sComboSeed","path":"sprites/sComboSeed/sComboSeed.yy",},},
     {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},},
     {"id":{"name":"oPTCHButtonParent","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},},
     {"id":{"name":"grumbling_03","path":"sounds/grumbling_03/grumbling_03.yy",},},
