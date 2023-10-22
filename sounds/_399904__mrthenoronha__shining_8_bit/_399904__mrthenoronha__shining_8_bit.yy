@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "_399904__mrthenoronha__shining_8_bit.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.2,
 }

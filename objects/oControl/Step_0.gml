@@ -7,13 +7,13 @@ if (room = rPatch) {
 	if (!instance_exists(oNewPumpkin) && !instance_exists(oPumpkin) && !global.inventoryOn) {
 		instance_create_layer((window_get_width()/2) - 300, window_get_height()/2, "Seeds", oNewPumpkin);
 	
-		var _button2 = instance_create_layer((window_get_width()/2), window_get_height()/2 - 150, "Seeds", oNewPumpkin);
+		var _button2 = instance_create_layer((window_get_width()/2), window_get_height()/2, "Seeds", oNewPumpkin);
 		with _button2 {image_index = 1;}
-	
+	/*
 		var _button3 = instance_create_layer((window_get_width()/2) + 300, window_get_height()/2, "Seeds", oNewPumpkin);
 		with _button3 {image_index = 2;}
-		
-		var _button4 = instance_create_layer((window_get_width()/2), window_get_height()/2 + 150, "Seeds", oNewPumpkin);
+	*/	
+		var _button4 = instance_create_layer((window_get_width()/2) + 300, window_get_height()/2, "Seeds", oNewPumpkin);
 		with _button4 {image_index = 3;}
 	}
 

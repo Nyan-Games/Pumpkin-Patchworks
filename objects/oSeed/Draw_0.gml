@@ -1,5 +1,6 @@
 draw_self();
 image_blend = attributes.color;
+
 if (!inventoryMode) {
 	draw_set_color(attributes.color);
 	draw_text(x, y - 128, attributes.size);
@@ -14,7 +15,5 @@ if (inventoryMode && instance_position(mouse_x, mouse_y, self)) {
 }
 
 if (combined) {
-	draw_text(x, y + 32, "+");
+	sprite_index = sComboSeed;
 }
-
-

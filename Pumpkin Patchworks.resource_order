@@ -69,6 +69,7 @@
     {"name":"sSMASH","order":16,"path":"sprites/sSMASH/sSMASH.yy",},
     {"name":"oHammer","order":6,"path":"objects/oHammer/oHammer.yy",},
     {"name":"DrawAttributes","order":6,"path":"scripts/DrawAttributes/DrawAttributes.yy",},
+    {"name":"sComboSeed","order":24,"path":"sprites/sComboSeed/sComboSeed.yy",},
     {"name":"oInit","order":1,"path":"objects/oInit/oInit.yy",},
     {"name":"oPTCHButtonParent","order":15,"path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},
     {"name":"sNose","order":7,"path":"sprites/sNose/sNose.yy",},
