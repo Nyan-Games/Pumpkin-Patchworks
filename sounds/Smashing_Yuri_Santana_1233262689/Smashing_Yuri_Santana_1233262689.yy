@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "grumbling_02",
+  "name": "Smashing_Yuri_Santana_1233262689",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.74619,
+  "duration": 2.142041,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "grumbling_02.wav",
+  "soundFile": "Smashing_Yuri_Santana_1233262689.mp3",
   "type": 0,
   "volume": 1.0,
 }

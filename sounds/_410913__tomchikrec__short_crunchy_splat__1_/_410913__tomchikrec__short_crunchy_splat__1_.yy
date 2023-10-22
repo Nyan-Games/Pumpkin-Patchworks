@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "Splat",
+  "name": "_410913__tomchikrec__short_crunchy_splat__1_",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.063673,
+  "duration": 1.219478,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "Splat.mp3",
+  "soundFile": "_410913__tomchikrec__short_crunchy_splat__1_.wav",
   "type": 0,
   "volume": 1.0,
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "very_loud_splat",
+  "name": "Splat_SoundBible_com_1826190667",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.129854,
+  "duration": 2.063673,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "very_loud_splat.wav",
+  "soundFile": "Splat_SoundBible_com_1826190667.mp3",
   "type": 0,
   "volume": 1.0,
 }

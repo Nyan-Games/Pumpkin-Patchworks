@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "grumbling_03",
+  "name": "_488393__wobesound__planting_sounds",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.711701,
+  "duration": 4.7665,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "grumbling_03.wav",
+  "soundFile": "_488393__wobesound__planting_sounds.wav",
   "type": 0,
   "volume": 1.0,
 }

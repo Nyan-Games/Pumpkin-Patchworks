@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "shining_8_bit",
+  "name": "_250852__relwin__pumpkinsmash",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.598753,
+  "duration": 1.470499,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "shining_8_bit.wav",
+  "soundFile": "_250852__relwin__pumpkinsmash.wav",
   "type": 0,
   "volume": 1.0,
 }

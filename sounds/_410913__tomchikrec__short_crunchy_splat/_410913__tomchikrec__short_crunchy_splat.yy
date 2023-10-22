@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "laugh_old_man_6",
+  "name": "_410913__tomchikrec__short_crunchy_splat",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.812583,
+  "duration": 1.219478,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "laugh_old_man_6.wav",
+  "soundFile": "_410913__tomchikrec__short_crunchy_splat.wav",
   "type": 0,
   "volume": 1.0,
 }

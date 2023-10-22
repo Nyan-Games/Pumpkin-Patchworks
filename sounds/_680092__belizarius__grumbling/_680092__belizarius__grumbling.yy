@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sndBackMusic",
+  "name": "_680092__belizarius__grumbling",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 3755.184,
+  "duration": 12.074989,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sndBackMusic.mp3",
+  "soundFile": "_680092__belizarius__grumbling.wav",
   "type": 0,
   "volume": 1.0,
 }
