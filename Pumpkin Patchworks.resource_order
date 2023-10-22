@@ -29,6 +29,7 @@
     {"name":"oMMButtonParent","order":3,"path":"objects/oMMButtonParent/oMMButtonParent.yy",},
     {"name":"rPatch","order":1,"path":"rooms/rPatch/rPatch.yy",},
     {"name":"rSoulCollision","order":3,"path":"rooms/rSoulCollision/rSoulCollision.yy",},
+    {"name":"CombineSeeds","order":10,"path":"scripts/CombineSeeds/CombineSeeds.yy",},
     {"name":"defaultFont","order":1,"path":"fonts/defaultFont/defaultFont.yy",},
     {"name":"oPumpkin","order":2,"path":"objects/oPumpkin/oPumpkin.yy",},
     {"name":"sTextBox","order":21,"path":"sprites/sTextBox/sTextBox.yy",},

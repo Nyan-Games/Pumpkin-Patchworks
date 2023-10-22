@@ -47,6 +47,7 @@
     {"id":{"name":"oMMButtonParent","path":"objects/oMMButtonParent/oMMButtonParent.yy",},},
     {"id":{"name":"rPatch","path":"rooms/rPatch/rPatch.yy",},},
     {"id":{"name":"rSoulCollision","path":"rooms/rSoulCollision/rSoulCollision.yy",},},
+    {"id":{"name":"CombineSeeds","path":"scripts/CombineSeeds/CombineSeeds.yy",},},
     {"id":{"name":"defaultFont","path":"fonts/defaultFont/defaultFont.yy",},},
     {"id":{"name":"oPumpkin","path":"objects/oPumpkin/oPumpkin.yy",},},
     {"id":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},},
