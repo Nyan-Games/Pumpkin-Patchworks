@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sFarmer",
-  "bbox_bottom": 255,
-  "bbox_left": 9,
-  "bbox_right": 239,
-  "bbox_top": 10,
+  "name": "sPumpkin2",
+  "bbox_bottom": 508,
+  "bbox_left": 4,
+  "bbox_right": 748,
+  "bbox_top": 23,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f69d5c12-3134-4501-8a6e-64914533a7d0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f670ffce-f756-49fe-a0b0-c6459ba469c0",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 256,
+  "height": 750,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"07e7e661-b1e7-4afb-8c42-1be07b35ff9d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"278ee6b3-e7e4-4621-be8c-878a29bb6f0c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sFarmer",
+    "name": "sPumpkin2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f69d5c12-3134-4501-8a6e-64914533a7d0","path":"sprites/sFarmer/sFarmer.yy",},},},"Disabled":false,"id":"eed50812-e636-4ba4-98b9-9820b0e235fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f670ffce-f756-49fe-a0b0-c6459ba469c0","path":"sprites/sPumpkin2/sPumpkin2.yy",},},},"Disabled":false,"id":"4c2746a9-ff6c-4f86-b67d-82b7dc097246","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 256,
+  "width": 750,
 }
