@@ -14,7 +14,5 @@ if (inventoryMode && instance_position(mouse_x, mouse_y, self)) {
 }
 
 if (combined) {
-	draw_text(x, y + 32, "+");
+	draw_text(x, y - 32, "+");
 }
-
-

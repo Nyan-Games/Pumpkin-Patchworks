@@ -11,6 +11,7 @@ function ShowInventoryItems(){
 							inventoryMode = true;
 							inventoryNumber = global.pageNumber*instance_number(oInventorySlot) + i;
 							attributes = global.seedInventory[|(global.pageNumber*instance_number(oInventorySlot) + i)];
+							combined = global.seedInventory[|(global.pageNumber*instance_number(oInventorySlot) + i)].combined;
 						}
 					}
 			} else {

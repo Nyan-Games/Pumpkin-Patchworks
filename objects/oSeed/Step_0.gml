@@ -52,11 +52,11 @@ if (global.soulMode) {
 			global.seed2 = 	global.seedInventory[|inventoryNumber];	
 			CombineSeeds(global.seed1,global.seed2);
 			global.inventoryOn = false;
+			global.combineMode = false;
 			global.soulMode = false;
 			global.pageNumber = 0;
 			oInventorySlot.itemsShown = false;
-			global.seed1 = undefined;
-			global.seed2 = undefined;
+
 			instance_destroy(oSeed);
 		}
 		instance_destroy(self);
