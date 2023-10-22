@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "_527968__katusm__seed_shellwav",
+  "name": "eed_shellwav",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "_527968__katusm__seed_shellwav.wav",
+  "soundFile": "eed_shellwav.wav",
   "type": 0,
   "volume": 1.0,
 }
