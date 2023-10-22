@@ -15,6 +15,10 @@ global.soulMode = false;
 global.souls = 0;
 global.soulsNeeded = 0;
 
+global.combineMode = false;
+global.seed1 = undefined;
+global.seed2 = undefined;
+
 showFullSplatter = false;
 splatterFullScreenOpacity = 0;
 splatterOpacity = 0;

@@ -13,6 +13,8 @@ if (inventoryMode && instance_position(mouse_x, mouse_y, self)) {
 	draw_sprite_ext(sMouth, attributes.mouth, x, y - 180, .5, .5, 0, c_white, 1);
 }
 
-
+if (combined) {
+	draw_text(x, y + 32, "+");
+}
 
 

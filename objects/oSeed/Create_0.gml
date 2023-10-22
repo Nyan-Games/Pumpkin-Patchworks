@@ -7,4 +7,6 @@ inventoryMode = false;
 attributes = undefined;
 inventoryNumber = -1;
 
+combined = false;
+
 image_speed = 0;

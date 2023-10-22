@@ -11,9 +11,9 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 }
 
  if image_index > image_number - 1 instance_destroy();
- 
- if (global.inventoryOn) {
-	 if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left) {
+  if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left) {
+ if (global.inventoryOn && !global.soulMode && !global.combineMode) {
+	
 		if (!global.soulMode) {
 			SpawnPumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth);
 			global.inventoryOn = false;
@@ -21,13 +21,17 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 			oInventorySlot.itemsShown = false;
 			ds_list_delete(global.seedInventory,inventoryNumber);
 			instance_destroy(oSeed);
-		} else {
+		} 
+
+	 }
+	 
+if (global.soulMode) {
 			global.soulsNeeded--;
 			ds_list_replace(global.seedInventory,inventoryNumber,-2);
-			instance_destroy(self);
+			
 			if (global.soulsNeeded = 0) {
 				var _removeSeed = ds_list_find_index(global.seedInventory, -2);
-				while (_removeSeed = -2) {
+				while (global.seedInventory[|_removeSeed] = -2) {
 					ds_list_delete(global.seedInventory,_removeSeed);
 					var _removeSeed = ds_list_find_index(global.seedInventory, -2);
 				}
@@ -38,7 +42,27 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 			global.souls++;
 			instance_destroy(oSeed);
 			}
+			instance_destroy(self);
+}
+
+	if (global.combineMode) {
+		if (global.seed1 = undefined) {
+			global.seed1 = 	global.seedInventory[|inventoryNumber];
+		} else {
+			global.seed2 = 	global.seedInventory[|inventoryNumber];	
+			CombineSeeds(global.seed1,global.seed2);
+			global.inventoryOn = false;
+			global.soulMode = false;
+			global.pageNumber = 0;
+			oInventorySlot.itemsShown = false;
+			global.seed1 = undefined;
+			global.seed2 = undefined;
+			instance_destroy(oSeed);
 		}
-	 }
+		instance_destroy(self);
+		ds_list_delete(global.seedInventory,inventoryNumber);
+		
+	}
+
  }
  

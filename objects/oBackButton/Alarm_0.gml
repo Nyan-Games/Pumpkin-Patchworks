@@ -9,6 +9,10 @@ if (global.soulMode) {
 	global.soulMode = false;	
 }
 
+if (global.combineMode) {
+	global.combineMode = false;	
+}
+
 image_alpha = 1;
 
 
