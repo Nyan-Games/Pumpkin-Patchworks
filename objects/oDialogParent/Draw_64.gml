@@ -5,7 +5,7 @@ if(showing_dialog == true)
 	//d = 30
 	var text_x = 30;
 	//d = 18
-	var text_y = 125;
+	var text_y = 80;
 	//d = 32
 	var height = 20;
 	var border = 5;

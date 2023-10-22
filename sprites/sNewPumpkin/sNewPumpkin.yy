@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "sNewPumpkin",
   "bbox_bottom": 199,
-  "bbox_left": 0,
+  "bbox_left": 1,
   "bbox_right": 199,
   "bbox_top": 0,
   "bboxMode": 0,
