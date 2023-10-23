@@ -6,8 +6,9 @@ if (image_xscale < size) {
 image_yscale = image_xscale;
 
 
-if (global.points > 199) {
+if (global.points > 30) {
 	image_index = 1;
+	room_goto(rPatchDialog1);
 	if (global.points > 299) {
 		image_index = 2;
 		if (global.points > 499) {

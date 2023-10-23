@@ -8,7 +8,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oPTCHButtonParent","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"value":"MENU",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oPTCHButtonParent","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"propertyId":{"name":"buttonText","path":"objects/oPTCHButtonParent/oPTCHButtonParent.yy",},"value":"QUIT",},
   ],
   "parent": {
     "name": "Objects",

@@ -1,5 +1,5 @@
 
-if !instance_exists(oUltimatePumpkin) {
+if !instance_exists(oPumpkin) {
  image_alpha = 0;	
 
 }
