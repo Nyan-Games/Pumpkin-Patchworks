@@ -9,6 +9,7 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 	if (image_index = 1) {
 		if (global.seedInventory[|0] != undefined) {
 			global.inventoryOn = true;
+			audio_play_sound(choose(planting_01, planting_02, planting_03, planting_04, planting_05), 0, false)
 			showError = false;
 		} else {
 			showError = true;

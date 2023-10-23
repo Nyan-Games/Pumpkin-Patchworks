@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oHammerSprite",
+  "name": "oUltimatePumpkin",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -13,10 +13,7 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "oUHammer",
-    "path": "objects/oUHammer/oUHammer.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -33,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sHammer",
-    "path": "sprites/sHammer/sHammer.yy",
+    "name": "sUltimatePumpkin",
+    "path": "sprites/sUltimatePumpkin/sUltimatePumpkin.yy",
   },
   "spriteMaskId": null,
   "visible": true,

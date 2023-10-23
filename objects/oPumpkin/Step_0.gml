@@ -14,6 +14,7 @@ if (global.points > 199) {
 			image_index = 3;
 			if (global.points > 699) {
 				image_index = 4;	
+				
 			}
 		}
 	}
