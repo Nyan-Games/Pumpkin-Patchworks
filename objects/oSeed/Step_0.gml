@@ -6,7 +6,7 @@ image_angle = (1 + sin(wiggleTimer*wiggleFrequency)*15);
 
 if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left) and !global.inventoryOn {
 	image_speed = 1;
-	ds_list_add(global.seedInventory,attributes);
+	ds_list_insert(global.seedInventory, 0, attributes);
 	show_debug_message(ds_list_find_value(global.seedInventory, ds_list_size(global.seedInventory) - 1));
 	audio_play_sound(picking_flower, 0, false, random_range(.8, 1.2));
 }
@@ -17,7 +17,7 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
  if (global.inventoryOn && !global.soulMode && !global.combineMode) {
 	
 		if (!global.soulMode) {
-			SpawnPumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth);
+			SpawnPumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth, multiplier);
 			global.inventoryOn = false;
 			global.pageNumber = 0;
 			oInventorySlot.itemsShown = false;
@@ -71,7 +71,6 @@ if (global.soulMode) {
  }
  
  var _colorPoints = floor(abs(20 - color_get_hue(attributes.color)));
- show_debug_message(_colorPoints);
  if (_colorPoints >= 220) {
 	attributes.color = make_color_hsv(255,0,255) 
 	_colorPoints = 300;
@@ -83,12 +82,13 @@ if (global.soulMode) {
  
  
  var _sizePoints = floor(abs(1-attributes.size)*100);
- show_debug_message(_sizePoints);
+
  
  if (!combined) {
-	worth = _sizePoints + _colorPoints;
+	worth = floor((_sizePoints + _colorPoints)*multiplier)
 	global.points = worth;
  } else {
-	worth = (_sizePoints + _colorPoints)*2;
+	worth = floor((_sizePoints + _colorPoints)*2*multiplier);
 	global.points = worth;
  }
+ show_debug_message(multiplier);

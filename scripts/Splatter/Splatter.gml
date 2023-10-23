@@ -25,7 +25,7 @@ function Splatter(){
 		_newColor = make_color_hsv(color_get_hue(_originalColor) - irandom_range(-10,10), color_get_saturation(_originalColor), color_get_value(_originalColor));
 		_newSize = _originalSize*random_range(.95,1.05);
 		with _seed {
-			attributes = new Seed(_newColor, _newSize, global.activePumpkin.stem, global.activePumpkin.eyes, global.activePumpkin.nose, global.activePumpkin.mouth, false);
+			attributes = new Seed(_newColor, _newSize, global.activePumpkin.stem, global.activePumpkin.eyes, global.activePumpkin.nose, global.activePumpkin.mouth, false, global.activePumpkin.multiplier);
 		}
 	}
 }

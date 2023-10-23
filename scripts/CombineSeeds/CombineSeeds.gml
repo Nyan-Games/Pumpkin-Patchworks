@@ -8,6 +8,7 @@ function CombineSeeds(_seed1,_seed2){
 			_newEyes = _seed1.eyes;
 			_newNose = _seed1.nose;
 			_newMouth = _seed1.mouth;
+			_newMultiplier = _seed1.multiplier*1.05;
 	} else {
 		var _mixAmount = random(1);
 		var _mixedColor = merge_color(_seed1.color, _seed2.color,_mixAmount);
@@ -47,10 +48,12 @@ function CombineSeeds(_seed1,_seed2){
 		} else {
 			_newStem = _seed1.stem;
 		}
+		
+		_newMultiplier = ((_seed1.multiplier+_seed2.multiplier)/2)*1.05;
 	}
 //var _newSeed = new Seed(_mixedColor,_mixedSize,_newStem,_newEyes,_newNose,_newMouth,true);
-var _newSeed = new Seed(_mixedColor,_mixedSize,_newStem,_newEyes,_newNose,_newMouth,true);
-ds_list_add(global.seedInventory, _newSeed);
+var _newSeed = new Seed(_mixedColor,_mixedSize,_newStem,_newEyes,_newNose,_newMouth,true,_newMultiplier);
+ds_list_insert(global.seedInventory, 0, _newSeed);
 
 	global.seed1 = undefined;
 	global.seed2 = undefined;

@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SpawnDefaultPumpkin(){
 	
-	global.activePumpkin = new Pumpkin(DEFAULT_COLOR, DEFAULT_SIZE, DEFAULT_STEM, DEFAULT_EYES, DEFAULT_NOSE, DEFAULT_MOUTH);
+	global.activePumpkin = new Pumpkin(DEFAULT_COLOR, DEFAULT_SIZE, DEFAULT_STEM, DEFAULT_EYES, DEFAULT_NOSE, DEFAULT_MOUTH, 1);
 	ds_list_add(global.pumpkinList, global.activePumpkin);
 	var _visualPumpkin;
 	_visualPumpkin = instance_create_layer(PUMPKIN_SPAWN_X,PUMPKIN_SPAWN_Y,PUMPKIN_LAYER,oPumpkin)

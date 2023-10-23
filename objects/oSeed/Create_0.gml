@@ -9,5 +9,6 @@ inventoryNumber = -1;
 
 combined = false;
 worth = 0;
+multiplier = 1;
 
 image_speed = 0;
