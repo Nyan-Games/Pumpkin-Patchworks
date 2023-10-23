@@ -70,3 +70,25 @@ if (global.soulMode) {
 
  }
  
+ var _colorPoints = floor(abs(20 - color_get_hue(attributes.color)));
+ show_debug_message(_colorPoints);
+ if (_colorPoints >= 220) {
+	attributes.color = make_color_hsv(255,0,255) 
+	_colorPoints = 300;
+ }
+ 
+ if (attributes.color == c_white) {
+    _colorPoints = 300;
+ }
+ 
+ 
+ var _sizePoints = floor(abs(1-attributes.size)*100);
+ show_debug_message(_sizePoints);
+ 
+ if (!combined) {
+	worth = _sizePoints + _colorPoints;
+	global.points = worth;
+ } else {
+	worth = (_sizePoints + _colorPoints)*2;
+	global.points = worth;
+ }

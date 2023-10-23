@@ -8,5 +8,6 @@ attributes = undefined;
 inventoryNumber = -1;
 
 combined = false;
+worth = 0;
 
 image_speed = 0;

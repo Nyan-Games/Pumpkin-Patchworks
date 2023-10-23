@@ -12,7 +12,7 @@ global.inventoryOn = false;
 global.pageNumber = 0;
 
 global.soulMode = false;
-global.souls = 0;
+global.points = 0;
 global.soulsNeeded = 0;
 
 global.combineMode = false;

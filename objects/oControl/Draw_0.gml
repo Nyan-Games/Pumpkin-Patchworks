@@ -1,6 +1,6 @@
 //draws fps
 draw_text(10, 10, fps);
-draw_text(window_get_width()/2, 10, "Souls: " + string(global.souls));
+draw_text(window_get_width()/2, 10, "Points: " + string(global.points));
 if (global.splatter) {
 	draw_sprite_ext(sSplatter, global.splatterPattern, 0, 0, 1, 1, 0, global.activePumpkin.color, splatterOpacity);
 }

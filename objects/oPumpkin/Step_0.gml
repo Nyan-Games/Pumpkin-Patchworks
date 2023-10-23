@@ -6,4 +6,15 @@ if (image_xscale < size) {
 image_yscale = image_xscale;
 
 
-
+if (global.points > 199) {
+	image_index = 1;
+	if (global.points > 299) {
+		image_index = 2;
+		if (global.points > 499) {
+			image_index = 3;
+			if (global.points > 699) {
+				image_index = 4;	
+			}
+		}
+	}
+}

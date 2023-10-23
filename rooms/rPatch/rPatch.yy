@@ -18,6 +18,8 @@
     {"name":"inst_4F562083","path":"rooms/rPatch/rPatch.yy",},
     {"name":"inst_735417BC","path":"rooms/rPatch/rPatch.yy",},
     {"name":"inst_1A283164","path":"rooms/rPatch/rPatch.yy",},
+    {"name":"inst_1275D916","path":"rooms/rPatch/rPatch.yy",},
+    {"name":"inst_48BD8E34","path":"rooms/rPatch/rPatch.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -36,6 +38,8 @@
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":1216.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30F3E510","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInventoryArrow","path":"objects/oInventoryArrow/oInventoryArrow.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":1216.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A283164","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBackButton","path":"objects/oBackButton/oBackButton.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":74.0,"y":74.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1275D916","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInventoryArrow","path":"objects/oInventoryArrow/oInventoryArrow.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1792.0,"y":1216.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48BD8E34","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInventoryArrow","path":"objects/oInventoryArrow/oInventoryArrow.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":128.0,"y":1216.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Splatter","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27319554","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oControl","path":"objects/oControl/oControl.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":64.0,},
