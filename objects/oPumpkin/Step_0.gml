@@ -25,3 +25,5 @@ if (global.points > 199) {
 	}
 }
 //	room_goto(rPatchDialog1);
+
+show_debug_message(multiplier);

@@ -4,7 +4,12 @@ wiggleTimer += 1;
 
 image_angle = (1 + sin(wiggleTimer*wiggleFrequency)*15);
 
+if (!global.inventoryOn) {
+	multiplier = global.activePumpkin.multiplier;	
+}
+
 if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left) and !global.inventoryOn {
+	
 	image_speed = 1;
 	ds_list_insert(global.seedInventory, 0, attributes);
 	show_debug_message(ds_list_find_value(global.seedInventory, ds_list_size(global.seedInventory) - 1));
@@ -92,3 +97,4 @@ if (global.soulMode) {
 	global.points = worth;
  }
  show_debug_message(multiplier);
+ show_debug_message(global.activePumpkin.multiplier);

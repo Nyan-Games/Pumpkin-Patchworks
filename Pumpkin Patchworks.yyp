@@ -62,6 +62,7 @@
     {"id":{"name":"sndBackMusic","path":"sounds/sndBackMusic/sndBackMusic.yy",},},
     {"id":{"name":"rPatchDialog1","path":"rooms/rPatchDialog1/rPatchDialog1.yy",},},
     {"id":{"name":"oPumpkin","path":"objects/oPumpkin/oPumpkin.yy",},},
+    {"id":{"name":"sQuit","path":"sprites/sQuit/sQuit.yy",},},
     {"id":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},},
     {"id":{"name":"oIntroDialog","path":"objects/oIntroDialog/oIntroDialog.yy",},},
     {"id":{"name":"sFarmer","path":"sprites/sFarmer/sFarmer.yy",},},

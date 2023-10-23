@@ -43,6 +43,7 @@
     {"name":"sndBackMusic","order":9,"path":"sounds/sndBackMusic/sndBackMusic.yy",},
     {"name":"rPatchDialog1","order":7,"path":"rooms/rPatchDialog1/rPatchDialog1.yy",},
     {"name":"oPumpkin","order":2,"path":"objects/oPumpkin/oPumpkin.yy",},
+    {"name":"sQuit","order":29,"path":"sprites/sQuit/sQuit.yy",},
     {"name":"sTextBox","order":21,"path":"sprites/sTextBox/sTextBox.yy",},
     {"name":"oIntroDialog","order":18,"path":"objects/oIntroDialog/oIntroDialog.yy",},
     {"name":"sFarmer","order":20,"path":"sprites/sFarmer/sFarmer.yy",},
