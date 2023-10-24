@@ -5,7 +5,7 @@ if keyboard_check_pressed(ord("F")) {
 if (room = rPatch) {
 	//if pumpkin doesnt exist, spawn one
 	if (!instance_exists(oNewPumpkin) && !instance_exists(oPumpkin) && !global.inventoryOn) {
-		instance_create_layer((window_get_width()/2) - 300, window_get_height()/2, "Seeds", oNewPumpkin);
+		instance_create_layer((window_get_width()/2) - 450, window_get_height()/2, "Seeds", oNewPumpkin);
 	
 		var _button2 = instance_create_layer((window_get_width()/2), window_get_height()/2, "Seeds", oNewPumpkin);
 		with _button2 {image_index = 1;}
@@ -13,7 +13,7 @@ if (room = rPatch) {
 		var _button3 = instance_create_layer((window_get_width()/2) + 300, window_get_height()/2, "Seeds", oNewPumpkin);
 		with _button3 {image_index = 2;}
 	*/	
-		var _button4 = instance_create_layer((window_get_width()/2) + 300, window_get_height()/2, "Seeds", oNewPumpkin);
+		var _button4 = instance_create_layer((window_get_width()/2) + 450, window_get_height()/2, "Seeds", oNewPumpkin);
 		with _button4 {image_index = 3;}
 	}
 

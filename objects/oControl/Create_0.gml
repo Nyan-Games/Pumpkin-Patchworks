@@ -19,7 +19,11 @@ global.combineMode = false;
 global.seed1 = undefined;
 global.seed2 = undefined;
 
-global.endingOccured = false;
+global.endingOccured1 = false;
+global.endingOccured2 = false;
+global.endingOccured3 = false;
+global.endingOccured4 = false;
+
 global.lastSeedWorth = 0;
 
 showFullSplatter = false;

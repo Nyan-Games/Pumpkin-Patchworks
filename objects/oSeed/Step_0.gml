@@ -27,6 +27,35 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 			global.pageNumber = 0;
 			global.lastSeedWorth = worth;
 			oInventorySlot.itemsShown = false;
+		if (global.lastSeedWorth > 99 && global.endingOccured1 == false)
+	{
+		//global.activePumpkin = new Pumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth, multiplier);
+		global.endingOccured1 = true;
+		room_goto(rPatchDialog1);		
+	}
+		
+	if (global.lastSeedWorth > 499 && global.endingOccured2 == false)	
+	{
+		room_goto(rPatchDialog2);
+		global.endingOccured1 = true;
+		global.endingOccured2 = true;
+	}
+	
+	if (global.lastSeedWorth > 999 && global.endingOccured3 == false)
+	{
+		room_goto(rPatchDialog3);
+		global.endingOccured1 = true;
+		global.endingOccured2 = true;
+		global.endingOccured3 = true;
+	}	
+//final pumpkin, end after smashin
+	if (global.lastSeedWorth > 1999 && global.endingOccured4 == false)	
+	{
+		global.endingOccured4 = true;
+		room_goto(rPatchDialog4);
+		
+		
+	}
 			ds_list_delete(global.seedInventory,inventoryNumber);
 			instance_destroy(oSeed);
 		} 
@@ -47,7 +76,6 @@ if (global.soulMode) {
 			global.soulMode = false;
 			global.pageNumber = 0;
 			oInventorySlot.itemsShown = false;
-			global.souls++;
 			instance_destroy(oSeed);
 			}
 			instance_destroy(self);
