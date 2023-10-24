@@ -1,4 +1,4 @@
-audio_play_sound(choose(grumbling_01, grumbling_02, grumbling_03, grumbling_04), 0, false);
-
-
-
+if !audio_is_playing(grumbling_04)
+{
+	audio_play_sound(grumbling_04, 0, false, random_range(.6, 1.5));
+}
