@@ -3,6 +3,8 @@ if (global.inventoryOn) {
 	global.inventoryOn = false;
 	global.pageNumber = 0;
 	oInventorySlot.itemsShown = false;
+	global.seed1 = undefined;
+	global.seed2 = undefined;
 }
 
 if (global.soulMode) {
