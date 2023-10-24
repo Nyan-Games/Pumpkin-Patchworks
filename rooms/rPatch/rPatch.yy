@@ -15,7 +15,6 @@
     {"name":"inst_6AFD5D63","path":"rooms/rPatch/rPatch.yy",},
     {"name":"inst_40DE77C8","path":"rooms/rPatch/rPatch.yy",},
     {"name":"inst_30F3E510","path":"rooms/rPatch/rPatch.yy",},
-    {"name":"inst_4F562083","path":"rooms/rPatch/rPatch.yy",},
     {"name":"inst_1A283164","path":"rooms/rPatch/rPatch.yy",},
     {"name":"inst_1275D916","path":"rooms/rPatch/rPatch.yy",},
     {"name":"inst_48BD8E34","path":"rooms/rPatch/rPatch.yy",},
@@ -44,7 +43,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Splatter","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27319554","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oControl","path":"objects/oControl/oControl.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2516FF68","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oHammer","path":"objects/oHammer/oHammer.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":32.0,"y":224.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4F562083","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oHammerSprite","path":"objects/oHammerSprite/oHammerSprite.yy",},"properties":[],"rotation":-270.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3CA30FB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oQuit","path":"objects/oQuit/oQuit.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1856.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Pumpkin","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
