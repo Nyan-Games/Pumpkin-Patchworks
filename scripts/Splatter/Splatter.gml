@@ -14,6 +14,7 @@ function Splatter(){
 	
 	var _originalSize = global.activePumpkin.size;
 	var _originalColor = global.activePumpkin.color;
+	show_debug_message(color_get_hue(_originalColor));
 	var _newSize;
 	var _newColor;
 	
@@ -22,7 +23,13 @@ function Splatter(){
 		_spawnY = irandom_range(256, window_get_height()-256);
 		_seed = instance_create_layer(_spawnX, _spawnY, "Seeds", oSeed);	
 		
-		_newColor = make_color_hsv(color_get_hue(_originalColor) - irandom_range(-10,10), color_get_saturation(_originalColor), color_get_value(_originalColor));
+		if (color_get_hue(_originalColor) < 30) {
+			_newColor = make_color_hsv(color_get_hue(_originalColor) - irandom_range(-10,0), color_get_saturation(_originalColor), color_get_value(_originalColor));
+			show_debug_message("good");
+		} else {
+			_newColor = make_color_hsv(color_get_hue(_originalColor) - irandom_range(-10,10), color_get_saturation(_originalColor), color_get_value(_originalColor));
+			show_debug_message("bad");
+		}
 		_newSize = _originalSize*random_range(.95,1.05);
 		with _seed {
 			attributes = new Seed(_newColor, _newSize, global.activePumpkin.stem, global.activePumpkin.eyes, global.activePumpkin.nose, global.activePumpkin.mouth, false, global.activePumpkin.multiplier);

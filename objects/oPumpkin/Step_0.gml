@@ -18,5 +18,3 @@ if (global.points > 99) {
 		}
 	}
 }
-
-show_debug_message(multiplier);

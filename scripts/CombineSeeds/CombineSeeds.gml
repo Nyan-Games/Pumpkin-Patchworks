@@ -53,8 +53,18 @@ function CombineSeeds(_seed1,_seed2){
 	}
 //var _newSeed = new Seed(_mixedColor,_mixedSize,_newStem,_newEyes,_newNose,_newMouth,true);
 var _newSeed = new Seed(_mixedColor,_mixedSize,_newStem,_newEyes,_newNose,_newMouth,true,_newMultiplier);
+
+
+if (global.seed1Pos < global.seed2Pos) {
+			ds_list_delete(global.seedInventory, global.seed1Pos);
+			ds_list_delete(global.seedInventory, global.seed2Pos-1);
+} else {
+		ds_list_delete(global.seedInventory, global.seed1Pos);
+			ds_list_delete(global.seedInventory, global.seed2Pos);
+}
 ds_list_insert(global.seedInventory, 0, _newSeed);
-show_debug_message("seecombined");
-	global.seed1 = undefined;
+global.seed1 = undefined;
 	global.seed2 = undefined;
+	global.seed1Pos = -1;
+	global.seed2Pos = -1;
 }

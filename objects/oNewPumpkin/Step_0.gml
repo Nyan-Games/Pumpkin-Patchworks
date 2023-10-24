@@ -34,13 +34,11 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 	if (image_index = 3) {
 		if (global.seedInventory[|0] != undefined && global.seedInventory[|1] != undefined) {
 			instance_destroy(oNewPumpkin);
-			show_debug_message("aaaa");
 			global.inventoryOn = true;
 			global.combineMode = true;
 			showError = false;
 		} else {
 			showError = true;
-			show_debug_message("bbbb");
 			errorMessage = "You Need At Least 2 SEEDS!";
 		}
 	}

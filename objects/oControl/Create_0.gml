@@ -18,6 +18,8 @@ global.soulsNeeded = 0;
 global.combineMode = false;
 global.seed1 = undefined;
 global.seed2 = undefined;
+global.seed1Pos = -1;
+global.seed2Pos = -1;
 
 global.endingOccured1 = false;
 global.endingOccured2 = false;

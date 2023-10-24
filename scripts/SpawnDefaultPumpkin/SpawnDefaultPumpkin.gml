@@ -11,6 +11,5 @@ function SpawnDefaultPumpkin(){
 		image_yscale = 0;
 	}
 	global.splatterPattern = irandom(sprite_get_number(sSplatter) - 1);
-	show_debug_message("Pumpkin created!");
 	global.pumpkinsCreated++;
 }

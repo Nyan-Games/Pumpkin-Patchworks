@@ -12,7 +12,6 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 	
 	image_speed = 1;
 	ds_list_insert(global.seedInventory, 0, attributes);
-	show_debug_message(ds_list_find_value(global.seedInventory, ds_list_size(global.seedInventory) - 1));
 	audio_play_sound(picking_flower, 0, false, random_range(.8, 1.2));
 }
 
@@ -85,8 +84,11 @@ if (global.soulMode) {
 		 
 		if (global.seed1 = undefined) {
 			global.seed1 = 	global.seedInventory[|inventoryNumber];
+			global.seed1Pos = 	inventoryNumber;
+			show_debug_message(global.seed1);
 		} else {
-			global.seed2 = 	global.seedInventory[|inventoryNumber];	
+			global.seed2 = 	global.seedInventory[|inventoryNumber];
+			global.seed2Pos = 	inventoryNumber;
 			CombineSeeds(global.seed1,global.seed2);
 			audio_play_sound(shining_8_bit, 0, false);
 			global.inventoryOn = false;
@@ -94,11 +96,9 @@ if (global.soulMode) {
 			global.soulMode = false;
 			global.pageNumber = 0;
 			oInventorySlot.itemsShown = false;
-
 			instance_destroy(oSeed);
 		}
 		instance_destroy(self);
-		ds_list_delete(global.seedInventory,inventoryNumber);
 		
 	}
 
@@ -125,5 +125,3 @@ if (global.soulMode) {
 	worth = floor((_sizePoints + _colorPoints)*2*multiplier);
 	global.points = worth;
  }
- show_debug_message(multiplier);
- show_debug_message(global.activePumpkin.multiplier);
