@@ -25,6 +25,7 @@ if instance_position(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
 			SpawnPumpkin(attributes.color, attributes.size, attributes.stem, attributes.eyes, attributes.nose, attributes.mouth, multiplier);
 			global.inventoryOn = false;
 			global.pageNumber = 0;
+			global.lastSeedWorth = worth;
 			oInventorySlot.itemsShown = false;
 			ds_list_delete(global.seedInventory,inventoryNumber);
 			instance_destroy(oSeed);

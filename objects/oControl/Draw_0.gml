@@ -9,7 +9,16 @@ if (!instance_exists(oSeed)) {
 }
 
 if (global.inventoryOn) {
-	draw_text(10, 1000, "Page " + string(global.pageNumber + 1));	
+		draw_set_halign(fa_left);
+	draw_set_color(c_black);
+	draw_text(100-2, 1000 +2, "Page " + string(global.pageNumber + 1));
+	draw_text(100+2,1000 -2, "Page " + string(global.pageNumber + 1));
+	draw_text(100-2,1000 -2, "Page " + string(global.pageNumber + 1));
+	draw_text(100+2, 1000 +2, "Page " + string(global.pageNumber + 1));
+	draw_set_color(c_white);
+	draw_text(100, 1000, "Page " + string(global.pageNumber + 1));
+	draw_set_color(c_white);
+	draw_set_halign(fa_left);
 }
 
 if (global.soulMode) {

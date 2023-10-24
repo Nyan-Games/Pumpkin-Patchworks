@@ -11,14 +11,15 @@ if (global.points > 199) {
 		//this doesnt work, but i want it to trigger after the last seed has been picked instance_exists(oNewPumpkin)
 	if !global.splatter
 	{	
-		room_goto(rPatchDialog1);
+
 	}		
 	if (global.points > 299) {
 		image_index = 2;
 		if (global.points > 499) {
 			image_index = 3;
 			if (global.points > 699) {
-				image_index = 4;	
+				image_index = 4;
+				
 				
 			}
 		}

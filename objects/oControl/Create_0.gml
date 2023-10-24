@@ -19,6 +19,9 @@ global.combineMode = false;
 global.seed1 = undefined;
 global.seed2 = undefined;
 
+global.endingOccured = false;
+global.lastSeedWorth = 0;
+
 showFullSplatter = false;
 splatterFullScreenOpacity = 0;
 splatterOpacity = 0;
